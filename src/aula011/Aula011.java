@@ -16,6 +16,13 @@ public class Aula011 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Bolsista b1 = new Bolsista();
+        b1.setMatricula(30);
+        b1.setNome("João");
+        b1.setBolsa(12.5f);
+        b1.setSexo("M");
+        b1.pagarMensalidade();
+        
     }
     
 }
